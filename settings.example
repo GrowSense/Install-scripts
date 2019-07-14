@@ -1,0 +1,14 @@
+BRANCH="lts"
+#BRANCH="master"
+#BRANCH="dev"
+
+MQTT_HOST="localhost"
+MQTT_USERNAME="user"
+MQTT_PASSWORD="pass"
+MQTT_PORT="1883"
+
+WIFI_NAME="na"
+WIFI_PASSWORD="na"
+
+SMTP_SERVER="na"
+EMAIL_ADDRESS="na"
