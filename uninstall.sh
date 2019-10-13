@@ -6,4 +6,4 @@ fi
 . ./settings.security
 
 
-sudo wget -O - https://raw.githubusercontent.com/GreenSense/Index/$BRANCH/scripts-web/uninstall-plug-and-play-from-web.sh | sudo bash -s -- $BRANCH ?
+sudo wget -O - https://raw.githubusercontent.com/GrowSense/Index/$BRANCH/scripts-web/uninstall-plug-and-play-from-web.sh | sudo bash -s -- $BRANCH ?

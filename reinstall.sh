@@ -1,4 +1,4 @@
-echo "Reinstalling GreenSense..."
+echo "Reinstalling GrowSense..."
 
 bash uninstall.sh || exit 1
 
