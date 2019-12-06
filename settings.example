@@ -1,14 +1,24 @@
+# The "lts" branch is recommended for most people.
+# Only use the "master" branch if you want the latest cutting edge updates and understand your system will automatically upgrade often.
+#    Parts of the system (eg. the web based UI) will be unusable during each upgrade process because system services get stopped during upgrades then restarted once complete.
+# Only use the "dev" branch if you're involved in development.
 BRANCH="lts"
 #BRANCH="master"
 #BRANCH="dev"
 
+# The MQTT broker will be installed on localhost with the credentials specified below. Only change the host if you want to use a different MQTT server.
+# The MQTT username and password can be anything you choose when using the localhost MQTT broker.
+# If using an MQTT broker which is running on a different server then specify the host, username and password for that MQTT broker.
+# Keep the default MQTT port unless you are using an MQTT broker on a different server which is only accessible via a different port.
 MQTT_HOST="localhost"
 MQTT_USERNAME="user"
 MQTT_PASSWORD="pass"
 MQTT_PORT="1883"
 
+# The WiFi details are only required when using WiFi/ESP GrowSense devices, otherwise the settings can be left as defaults.
 WIFI_NAME="na"
 WIFI_PASSWORD="na"
 
+# Setting the email details will enable email reporting of errors and system events. They values can be left as defaults if this isn't required.
 SMTP_SERVER="na"
 EMAIL_ADDRESS="na"
