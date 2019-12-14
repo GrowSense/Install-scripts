@@ -1,8 +1,13 @@
-# The "lts" branch is recommended for most people.
-# Only use the "master" branch if you want the latest cutting edge updates and understand your system will automatically upgrade often.
-#    Parts of the system (eg. the web based UI) will be unusable during each upgrade process because system services get stopped during upgrades then restarted once complete.
+# The "lts" (long term support a.k.a. stable) branch is recommended for most people.
+#    This branch won't update often and should remain completely stable.
+# Use the "rc" (release candidate) branch if you want to help test the latest releases before they are graduated to the "lts" branch, or you want the very latest mostly stable updates.
+#    This branch will update reasonably often as new fixes and features are rolled out for testing. It should remain fairly stable but it's not guaranteed.
+# Only use the "master" branch if you want the very latest bleeding edge updates which may or may not be stable.
+#    This branch will update very often.
 # Only use the "dev" branch if you're involved in development.
+#    This branch will up
 BRANCH="lts"
+#BRANCH="rc"
 #BRANCH="master"
 #BRANCH="dev"
 
