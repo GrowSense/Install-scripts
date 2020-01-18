@@ -5,7 +5,7 @@
 # Only use the "master" branch if you want the very latest bleeding edge updates which may or may not be stable.
 #    This branch will update very often.
 # Only use the "dev" branch if you're involved in development.
-#    This branch will up
+#    This branch will update very often.
 BRANCH="lts"
 #BRANCH="rc"
 #BRANCH="master"
