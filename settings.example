@@ -27,3 +27,6 @@ WIFI_PASSWORD="na"
 # Setting the email details will enable email reporting of errors and system events. They values can be left as defaults if this isn't required.
 SMTP_SERVER="na"
 EMAIL_ADDRESS="na"
+SMTP_USERNAME="na"
+SMTP_PASSWORD="na"
+SMTP_PORT="25"
